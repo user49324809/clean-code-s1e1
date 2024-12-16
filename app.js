@@ -6,7 +6,7 @@ var completedTasksHolder=document.getElementById("completed-tasks");//completed-
 //Создание задачи
 var createNewTaskElement=function(taskString){
     var listItem=document.createElement("li");
-    //input (checkbox)
+    //поля ввода
     var checkBox=document.createElement("input");
     //label
     var label=document.createElement("label");
