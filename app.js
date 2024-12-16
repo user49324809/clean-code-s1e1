@@ -8,13 +8,10 @@ var createNewTaskElement=function(taskString){
     var listItem=document.createElement("li");
     //поля ввода
     var checkBox=document.createElement("input");
-    //label
     var label=document.createElement("label");
-    //input (text)
     var editInput=document.createElement("input");
-    //button.edit
     var editButton=document.createElement("button");
-    //button.delete
+    //кнопка удаления данных
     var deleteButton=document.createElement("button");
     var deleteButtonImg=document.createElement("img");
     label.innerText=taskString;
